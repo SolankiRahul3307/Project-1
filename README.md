@@ -26,7 +26,18 @@ This project aims to develop a system for detecting the presence of fire or smok
 
 ## Directory Structure
 
-
+├── data/ # Directory for storing dataset
+│ ├── train/ # Training images
+│ ├── test/ # Testing images
+│ └── ...
+├── models/ # Directory for saving trained models
+├── src/ # Source code files
+│ ├── data_preprocessing.py
+│ ├── model_training.py
+│ ├── model_evaluation.py
+│ └── detection.py
+├── README.md # Project overview and instructions
+└── requirements.txt # Python dependencies
 
 ## Future Work
 - Real-time fire/smoke detection in video streams.
